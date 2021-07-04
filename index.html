@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Docs</title>
+    <link rel="stylesheet" href="./assets/BS5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/CSSCode/style.min.css">
+
+</head>
+<body>
+    <div class="main my-5">
+        <section id="firstSection">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card shadow">
+                            <div class="card-header">
+                                <h4 class="text-black-50">Hide and show Accordion</h4>
+                            </div>
+                            <div class="card-body">
+                                <a href="#one" class="accordion-toggle">First</a>
+                                    <div class="accordion m-2 p-2 shadow" id="one">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatibus at fugit aliquam delectus ullam laborum dicta sint! Quo magni tempore accusantium hic veritatis ipsum esse obcaecati totam voluptate natus.
+                                    </div>
+                                <br>
+                                <a href="#two" class="accordion-toggle">Second</a>
+                                    <div class="accordion m-2 p-2 shadow" id="two">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatibus at fugit aliquam delectus ullam laborum dicta sint! Quo magni tempore accusantium hic veritatis ipsum esse obcaecati totam voluptate natus.
+                                    </div>
+                                <br>
+                                <a href="#three" class="accordion-toggle">Third</a>
+                                    <div class="accordion m-2 p-2 shadow" id="three">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatibus at fugit aliquam delectus ullam laborum dicta sint! Quo magni tempore accusantium hic veritatis ipsum esse obcaecati totam voluptate natus.
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="secondSection">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card shadow">
+                            <div class="card-header">
+                                <h4 class="text-black-50">Insert then select random</h4>
+                            </div>
+                            <div class="card-body">
+                                <h5>Who should drive?</h5>
+                                <ul id="names">
+
+                                </ul>
+                                <div class="btn-group md:w-50">
+                                    <input type="text" id="enterName" placeholder="Name of driver" class="form-control">
+                                    <button class="btn btn-primary" id="addName">+</button>
+                                </div>
+                                <br>
+                                <button type="button" id="chooseDriver" class="btn btn-danger mt-2 mx-5">Select Driver</button>
+                                <br>
+                                <button type="button" id="clearDriver" class="btn btn-warning mt-2 mx-5">Clear</button>
+                                <div>
+                                    <p class="fs-4 pt-2 mx-5" id="theDriver"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./assets/BS5/js/bootstrap.min.js"></script>
+    <script src="./assets/JavascriptCode/script.min.js"></script>
+</body>
+</html>

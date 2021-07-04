@@ -1,0 +1,13 @@
+
+/*------------ ACCORDION AREA START -----------*/
+
+.accordion{
+  display: none;
+}
+.accordion.active{
+  display: block;
+}
+
+/*------------ ACCORDION AREA END -----------*/
+
+
